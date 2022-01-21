@@ -1,0 +1,25 @@
+.slider-products .swiper-slide:hover {
+  min-height: 600px;
+}
+
+.slider-products {
+  min-height: 625px;
+}
+
+.navigation-list__item:hover .sub-menu {
+  opacity: 0;
+  visibility: initial;
+}
+
+.sub-menu.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.catalog + .catalog-pagination {
+  margin-top: 60px;
+}
+
+.catalog-products {
+  width: 100%;
+}
